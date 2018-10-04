@@ -44,19 +44,17 @@ a:hover {
 }
 
 .flex-container {
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .cat {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -69,8 +67,8 @@ a:hover {
   .arch {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -83,8 +81,8 @@ a:hover {
   .kalama{
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -97,8 +95,8 @@ a:hover {
   .victoria{
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -110,8 +108,8 @@ a:hover {
   .family {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -123,8 +121,8 @@ a:hover {
   .roma {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -136,8 +134,8 @@ a:hover {
   .gideon {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;
@@ -149,8 +147,8 @@ a:hover {
   .art {
     background: teal;
     padding: 5px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 180px;
     margin-top: 10px;
     
     line-height: 150px;

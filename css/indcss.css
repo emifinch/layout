@@ -133,6 +133,7 @@ a:hover {
     width: 200px;
     height: 150px;
     margin-top: 10px;
+    transform:rotate(90deg);
     
     line-height: 150px;
     color: white;

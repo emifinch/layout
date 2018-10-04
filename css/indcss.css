@@ -27,15 +27,15 @@ body{
     padding: 0;
     font-size: 14px;  
     background-color:#ffb4b1;
-    background-image: url("../images/flower.jpg");
+    background-image: url("/images/flower.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000080;
+    color: #000035;
     font-family: 'Poiret One', cursive;
 }
 
 header{
-    color: #e06f24;
+    color: #e75d00;
 }
 
 a:hover {

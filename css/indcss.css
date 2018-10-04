@@ -1,0 +1,43 @@
+nav {
+    background-color: #a6c48d;
+    margin: 0;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+nav > ul > li > a {
+    color: #24646d;
+    background-color:#c0be81;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;  
+    background-color:#ffb4b1;
+    background-image: url("../images/flower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000080;
+    font-family: 'Poiret One', cursive;
+}
+
+header{
+    color: #e06f24;
+}
+
+a:hover {
+    background-color: maroon;
+}

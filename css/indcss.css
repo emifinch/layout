@@ -87,6 +87,7 @@ a:hover {
   }
 
   .london_gaurd {
+    transform:rotate(90deg);
     background: teal;
     padding: 5px;
     width: 200px;

@@ -50,7 +50,7 @@ a:hover {
     align-items: center;
   }
   
-  .cat {
+  .flex-item {
     object-fit: cover;
     background: teal;
     padding: 5px;
@@ -65,50 +65,6 @@ a:hover {
     text-align: center;
   }
 
-  .arch {
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-
-  .kalama{
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-
-  .victoria{
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
   .family {
     object-fit: cover;
     background: teal;
@@ -123,60 +79,16 @@ a:hover {
     font-size: 3em;
     text-align: center;
   }
-  .roma {
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-  .gideon {
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-  .art {
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
-  
-  .jon {
-    object-fit: cover;
-    background: teal;
-    padding: 5px;
-    width: 300px;
-    height: 180px;
-    margin-top: 10px;
-    
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
+
+
+.grid {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.grid div:nth-child(even){
+    background-color:red;
+}
+
+.grid div:nth-child(odd){
+    background-color:yellow;
+}

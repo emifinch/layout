@@ -101,15 +101,6 @@ a:hover {
     "extra extra extra"
     "cv cv cv"
 }
-/*.grid div:nth-child(even){
-    background-color:red;
-}
-
-.grid div:nth-child(odd){
-    background-color:yellow;
-}
-*/
-
 .title{
     grid-area: title;
 }

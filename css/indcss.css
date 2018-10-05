@@ -85,4 +85,24 @@ a:hover {
     display: grid;
     grid-template-columns:fit-content(auto)1fr 1fr 1fr;
     grid-template-rows:fit-content(auto) 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "title title title"
+    "subtitle subtitle subtitle"
+    "sidebar sidebar sidebar"
+    'info info info'
+
+}
+
+.title{
+    grid-area: title;
+}
+.subtitle{
+    grid-area: subtitle;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+
+.info{
+    grid-area: info;
 }

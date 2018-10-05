@@ -180,6 +180,4 @@ a:hover {
     font-size: 3em;
     text-align: center;
   }
-  .cat:hover:after{
-    content: attr(title);
-  }
+ 

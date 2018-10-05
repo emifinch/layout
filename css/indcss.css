@@ -79,3 +79,8 @@ a:hover {
     font-size: 3em;
     text-align: center;
   }
+.wrapper{
+    display:grid;
+    width: 900px;
+    max-width: width 100%;
+}

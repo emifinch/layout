@@ -166,3 +166,17 @@ a:hover {
     text-align: center;
   }
   
+  .jon {
+    object-fit: cover;
+    background: teal;
+    padding: 5px;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }

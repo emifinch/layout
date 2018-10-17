@@ -85,10 +85,11 @@ a:hover {
     height:500px;
 }
 
+@media screen and (min-width:776px){
 .grid{
     display:grid;
-    height:200px;
-    width:1039px;
+    /* height:200px; */
+    /* width:1039px; */
     grid-template-columns:1fr 1fr; 
     grid-template-rows:1fr 1fr 1fr;
     grid-row-gap: 50px;
@@ -97,6 +98,7 @@ a:hover {
     "two two"
     "three four"
     "five five"
+}
 }
 .one{
     grid-area:one;
